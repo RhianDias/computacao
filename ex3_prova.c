@@ -39,11 +39,11 @@ int main()
 
     if (dano <= 1000)
         printf(" (Dano normal)");
-     else if (dano > 1000 && dano <= 5000)
-         printf(" (DANO CRITICO!!!)");
-     else if (dano > 5000)
-         printf(" (DANO CRITICO MASSIVO!!!)");
+    else if (dano <= 5000)
+        printf(" (DANO CRITICO!!!)");
+    else
+        printf(" (DANO CRITICO MASSIVO!!!)");
 
-        return 0;
+    return 0;
 
 }
