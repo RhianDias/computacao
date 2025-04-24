@@ -16,7 +16,8 @@ int main()
 
     for (int i = inicio; i <= fim; i++)
     {
-        if (i % base == 0){
+        if (i % base == 0)
+        {
             soma += i;
         }
     }
